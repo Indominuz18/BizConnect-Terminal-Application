@@ -2,7 +2,7 @@ import pyodbc
 import random
 import string
 
-conn = pyodbc.connect('driver={ODBC Driver 18 for SQL Server};server=cypress.csil.sfu.ca;uid=s_msa299;pwd=nfQPYMbNtgQjanGh;Encrypt=yes;TrustServerCertificate=yes')
+conn = pyodbc.connect('driver={ODBC Driver 18 for SQL Server};server=;uid=;pwd=;Encrypt=yes;TrustServerCertificate=yes')
 
 cur = conn.cursor()
 
